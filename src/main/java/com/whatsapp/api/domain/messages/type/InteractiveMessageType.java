@@ -15,6 +15,8 @@ public enum InteractiveMessageType {
     /**
      * Button interactive message type.
      */
+    LOCATION_REQUEST_MESSAGE("location_request_message"),
+
     BUTTON("button"), //
     /**
      * List interactive message type.
