@@ -12,7 +12,8 @@ public enum ButtonType {
     /**
      * Reply button type.
      */
-    REPLY("reply");
+    REPLY("reply"),
+    LOCATION_REQUEST_MESSAGE("location_request_message");
     private final String value;
 
     ButtonType(String value) {
